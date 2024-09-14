@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.title-wrapper {
+  background-color: plum;
+  padding: 20px; }
+
+.title-buttons-wrapper {
+  background-color: #ba86ba;
+  padding: 10px;
+  margin-bottom: 3vw; }
+  .title-buttons-wrapper > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row; }
+    .title-buttons-wrapper > div button {
+      margin-right: 15px;
+      font-size: 15px;
+      padding: 3px; }
+  .title-buttons-wrapper .notifications {
+    font-size: 20px;
+    padding: 10px; }
+
+.container {
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto; }
+
+div.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px; }
+  div.buttons button, div.buttons input {
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 15px; }
+
+div.preform {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px; }
+  div.preform input {
+    margin-right: 5px;
+    font-size: 15px; }
+
+div.form {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px; }
+  div.form > div.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%; }
+    div.form > div.wrapper > div.row {
+      display: flex;
+      flex-direction: row; }
+    div.form > div.wrapper:first-of-type {
+      margin-right: 15px; }
+    div.form > div.wrapper > input, div.form > div.wrapper label, div.form > div.wrapper textarea {
+      font-size: 18px;
+      padding: 3px; }
+    div.form > div.wrapper > input, div.form > div.wrapper textarea {
+      margin-bottom: 10px; }
+    div.form > div.wrapper > label {
+      margin-bottom: 3px; }
+    div.form > div.wrapper > textarea {
+      height: 400px; }
+
+/*# sourceMappingURL=home.css.map */

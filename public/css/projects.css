@@ -1,0 +1,43 @@
+.project-index-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+  .project-index-container.header {
+    font-weight: bolder;
+    background-color: plum; }
+  .project-index-container div {
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  .project-index-container div:nth-of-type(1) {
+    width: 5%; }
+  .project-index-container div:nth-of-type(2) {
+    width: 20%; }
+  .project-index-container div:nth-of-type(3) {
+    width: 10%; }
+  .project-index-container div:nth-of-type(4) {
+    width: 10%; }
+  .project-index-container div:nth-of-type(5) {
+    flex-grow: 1; }
+  .project-index-container div:nth-of-type(6) {
+    width: 3%; }
+  .project-index-container div.actions {
+    justify-content: flex-start; }
+    .project-index-container div.actions button {
+      margin-right: 15px;
+      font-size: 15px;
+      padding: 3px; }
+  .project-index-container div.project-active {
+    background-color: green; }
+  .project-index-container div.project-inactive {
+    background-color: red; }
+  .project-index-container select {
+    display: block;
+    width: 100px; }
+    .project-index-container select option {
+      font-size: 18px; }
+
+/*# sourceMappingURL=projects.css.map */
